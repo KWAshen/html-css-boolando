@@ -114,3 +114,86 @@ nav,
   font-size: 1.1rem;
 }
 
+.card2:hover {
+  background-image: url('../img/2b.webp');
+}
+
+.card3 {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 3 / 4;
+  background-image: url('../img/3.webp');
+  background-size: cover;
+  background-position: center;
+  transition: background-image 0.3s ease-in-out;
+  display: flex;
+  align-items: flex-end;
+  padding: 10px;
+  color: white;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.card3:hover {
+  background-image: url('../img/3b.webp');
+}
+
+.card4 {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 3 / 4;
+  background-image: url('../img/4.webp');
+  background-size: cover;
+  background-position: center;
+  transition: background-image 0.3s ease-in-out;
+  display: flex;
+  align-items: flex-end;
+  padding: 10px;
+  color: white;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.card4:hover {
+  background-image: url('../img/4b.webp');
+}
+
+.card5 {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 3 / 4;
+  background-image: url('../img/5.webp');
+  background-size: cover;
+  background-position: center;
+  transition: background-image 0.3s ease-in-out;
+  display: flex;
+  align-items: flex-end;
+  padding: 10px;
+  color: white;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.card5:hover {
+  background-image: url('../img/5b.webp');
+}
+
+.card6 {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 3 / 4;
+  background-image: url('../img/6.webp');
+  background-size: cover;
+  background-position: center;
+  transition: background-image 0.3s ease-in-out;
+  display: flex;
+  align-items: flex-end;
+  padding: 10px;
+  color: white;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.card6:hover {
+  background-image: url('../img/6b.webp');
+}
