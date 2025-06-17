@@ -54,3 +54,63 @@ nav,
 .categoria {
   width: 33%;
 }
+
+.logo {
+  width: 33%;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+
+.logoImg {
+  height: 40px;
+  object-fit: contain;
+}
+
+/* cards  */
+.card-section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 20px;
+  margin-left: 10%;
+  margin-right: 10%;
+
+}
+
+.card {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 3 / 4;
+  background-image: url('../img/1.webp');
+  background-size: cover;
+  background-position: center;
+  transition: background-image 0.3s ease-in-out;
+  display: flex;
+  align-items: flex-end;
+  padding: 10px;
+  color: white;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.card:hover {
+  background-image: url('../img/1b.webp');
+}
+
+.card2 {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 3 / 4;
+  background-image: url('../img/2.webp');
+  background-size: cover;
+  background-position: center;
+  transition: background-image 0.3s ease-in-out;
+  display: flex;
+  align-items: flex-end;
+  padding: 10px;
+  color: white;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
